@@ -1,0 +1,35 @@
+.trending__container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trending__header {
+    font-size: 18px;
+    color: #dad9d9;
+    font-weight: 500;
+}
+
+.trending__content {
+    position: relative;
+}
+
+.trending__films {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trending__item img {
+    min-width: 150px;
+    width: 130px;
+    min-height: 180px;
+    height: 180px;
+    cursor: pointer;
+    object-fit: cover;
+    border: none;
+    outline: none;
+}
